@@ -1,0 +1,18 @@
+def sum(a,b):
+    return a+b
+def minus(a,b):
+    return a-b
+def multiply(a,b):
+    return a*b
+def divide(a,b):
+    return a/b
+a,b=map(int,input().split())
+s=input()
+if s=="+":
+    print(sum(a,b))
+elif s=="_":
+    print(minus(a,b))
+elif s=="*":
+    print(multiply(a,b))
+else:
+    print(divide(a,b))
